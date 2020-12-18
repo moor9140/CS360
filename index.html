@@ -1,0 +1,45 @@
+<!------------- HTML ------------->
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<title>Page Title</title>
+<link href="../css/main.css" rel='stylesheet'>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+<div class="header">
+  <h1>My Health Patient Portal</h1>
+  <p>CS 360 Group 4</p>
+</div>
+
+<div class="navbar">
+  <a href="http://myhealth4.kb-projects.com">Home</a>
+  <a href="http://myhealth4.kb-projects.com/php/registration.php">Signup</a>
+</div>
+
+
+<body>
+   <h2>This is the login page</h2>
+   <h5>log in to access our website.</h5>
+   <p>Click Signup to create an account.</p>
+   <div class="container">
+      <form class="form-signin" role="form" action="php/login.php" method="post">
+         <label for="uname">Username:</label><br>
+         <input type="text" class="form-control" name="uname" placeholder="username" required autofocus><br>
+         <label for="pwd">Password:</label><br>
+         <input type="password" class="form-control" name="pwd" placeholder="password" required><br>
+	 <button type="submit" name="login" class="loginbtn">Login</button>
+      </form>   
+   </div>
+</body>
+<div class="footer">
+  <h2>Fall 2020</h2>
+</div>
+</html>
